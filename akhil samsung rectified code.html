@@ -30,10 +30,13 @@
     <!-- Product Listing with Images, Descriptions, and Filters -->
     <section class="products">
         <div class="filters">
-            <input type="text" placeholder="Search Products">
-            <select>
-                <option value="price">Sort by Price</option>
-                <option value="rating">Sort by Rating</option>
+            <label for="searchProducts">Search Products:</label>
+            <input type="text" id="searchProducts" placeholder="Search Products">
+
+            <label for="productSort">Sort by:</label>
+            <select id="productSort">
+                <option value="price">Price</option>
+                <option value="rating">Rating</option>
             </select>
         </div>
         <div class="product">
